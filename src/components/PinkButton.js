@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Button = styled.button`
+const PinkButton = styled.button`
 height: 52px;
 width: 298px;
 border-radius: 8px;
@@ -14,3 +14,5 @@ background-color: #FF4791;
     font-family: 'Roboto', sans-serif;
   }
 `;
+
+export default PinkButton;
