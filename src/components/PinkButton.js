@@ -6,6 +6,9 @@ width: 298px;
 border-radius: 8px;
 padding: 18px, 122px, 18px, 122px;
 background-color: #FF4791;
+display: flex;
+align-items: center;
+justify-content: center;
 ::placeholder {
     color:#FFFFFF;
     font-size:14 px;
