@@ -5,17 +5,21 @@ import api from "../../services/api"
 
 
 export default function Subscriptions(){
-    const [listAll,setListAll]= useState('')
+    const [plans,setPlans]= useState('')
+
     useEffect(() => {
       const promise = api.listingPlans();
       promise.then((response)=> {
-        setListAll(response.data);
+         setPlans(response.data);
       });
       promise.catch((error) => {
         console.log(error.response);
       });
     });
- 
+    if (plans === null){
+      return <h1>Carregando...</h1>
+    }
+
     return (
       <>
       <Typography>Escolha seu Plano </Typography>
