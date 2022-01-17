@@ -1,7 +1,7 @@
 import { Container, Typography } from "./style"
 import { useState,useEffect } from "react"
 import api from "../../services/api"
-import { useEffect } from "react/cjs/react.development"
+
 
 
 export default function Subscriptions(){
