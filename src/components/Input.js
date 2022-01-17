@@ -6,6 +6,9 @@ const Input = styled.input`
     margin-bottom:16px;
     border-radius: 8px;
     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 ::placeholder {
     color:#7E7E7E;

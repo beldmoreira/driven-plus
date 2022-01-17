@@ -9,13 +9,12 @@ background-color: #FF4791;
 display: flex;
 align-items: center;
 justify-content: center;
-::placeholder {
-    color:#FFFFFF;
-    font-size:14 px;
-    line-height: 16,41px;
-    padding-left: 14px;
-    font-family: 'Roboto', sans-serif;
-  }
+color:#FFFFFF;
+font-size:14 px;
+line-height: 16,41px;
+padding-left: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
 `;
 
 export default PinkButton;

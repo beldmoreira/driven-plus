@@ -7,6 +7,8 @@ font-weight: 700;
 line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
+color: #FFFFFF;
+
 `;
 
 export default Font;
